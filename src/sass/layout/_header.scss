@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navigation-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__social-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border: solid black 1px;
+    border-radius: 10px;
+
+}
+
+.header__social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header__social-item  :hover {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
