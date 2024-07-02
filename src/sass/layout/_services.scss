@@ -1,0 +1,34 @@
+.services__list {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.services__item {
+    border-radius: 20px;
+    position: relative;
+    margin: 10px;
+}
+
+.services__img {
+    border-radius: 8px;
+    width: 400px;
+    height: 260px;
+    display: block;
+}
+
+.services__title {
+    color: var(--color-white);
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 0 0 8px 8px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgba(128, 128, 128, 0.9);
+    text-align: center;
+}
