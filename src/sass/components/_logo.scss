@@ -1,8 +1,15 @@
 .logo {
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: 20px;
-    padding: 20px 0;
     margin: 20px 0;
+    background-color: var(--color-grey);
+    width: 200px;
+    border-radius: 50px;
+    color: var(--primary-color);
 }
 
 .logo > span {
