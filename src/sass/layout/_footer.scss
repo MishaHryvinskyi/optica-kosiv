@@ -52,6 +52,12 @@
     color: var(--accent-color);
 }
 
+.footer__address-link:hover {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
+
 .footer__address-list li:not(:last-child) {
     margin-bottom: 20px;
 }
