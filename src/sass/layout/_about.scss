@@ -1,4 +1,9 @@
+.about {
+    background-color: var(--color-grey);
+}
+
 .about__paragraph {
+    font-size: 24px;
     margin: 0 auto;
 }
 
@@ -11,14 +16,32 @@
 }
 
 @media screen and (min-width:768px) {
-    .about__paragraph {
-        width: 720px;
-        padding: 10px 0;
-    }
+    // .about__paragraph {
+    //     width: 720px;
+    //     padding: 10px 0;
+    // }
 }
 
 @media screen and (min-width:1200px) {
-    .about__paragraph {
-        width: 800px;
-    }
+    
+}
+
+.about__paragraph-optica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.about__paragraph-optica-img {
+    margin-right: 280px;
+}
+
+.about__paragraph-doctor-img {
+    margin-left: 280px;
+}
+
+.about__paragraph-optica-img, 
+.about__paragraph-doctor-img {
+    border-radius: 10px;
 }
