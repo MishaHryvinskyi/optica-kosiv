@@ -10,7 +10,23 @@
 }
 
 
-@media screen and (min-width:320px) and (max-width:767px) {
+@media screen and (min-width:320px) {
+    .hero {
+        min-width: 320px;
+    }      
+    
+    .hero {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 200px 0;
+    }
+} 
+    
+
+
+@media screen and (min-width:480px) and (max-width:767px) {
     .hero {
         min-width: 480px;
     }
@@ -23,14 +39,6 @@
     .hero__paragraph {
        width: 280px;    
         margin: 0 auto;
-    }
-
-    .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile.jpg);
-        background-size: cover;
-        background-position: center;
-        padding: 200px 0;
     }
     
 }
