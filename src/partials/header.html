@@ -1,51 +1,77 @@
-<div class="header"> 
+<div class="header">
     <div class="container header">
         <div>
             <a class="logo" href="./index.html">Оптика <span class="accent-logo">Косів</span></a>
         </div>
     
-        <nav class="header__navigation">
-            <div>
-                <ul class="header__navigation-list">
-                    <li class="header__navigation-item">
-                        <a href="#services">Наші послуги</a>
-                    </li>
-                    <li class="header__navigation-item">
-                        <a href="#about">Про нас</a>
-                    </li>
-                    <li class="header__navigation-item">
-                        <a href="#contacts">Контакти</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    
-        <div class="header__social">
-            <ul class="header__social-items">
-                <li class="header__social-item">
-                    <a class="header__social-link" href="https://www.facebook.com/profile.php?id=61557629715751" target="_blank" aria-label="Facebook link">
-                        <svg class="header__svg" width="22" height="22">
-                            <use href="./images/icons.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
+        <button type="button" class="mobile-menu js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <svg width="30" height="30">
+                <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+        </button>
+
+        <div class="menu-container js-menu-container">
+            <button type="button" class="mobile-menu js-close-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg>
+                    <use href="./images/icons.svg#icon-char"></use>
+                </svg>
+            </button>
+
+            <ul class="header__mobile-list">
+                <li class="header__mobile-item">
+                    <a class="header__mobile-link" href="#services">Наші послуги</a>
                 </li>
-                <li class="header__social-item">
-                    <a class="header__social-link" href="#">
-                        <svg class="header__svg" width="22" height="22">
-                            <use href="./images/icons.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
+                <li class="header__mobile-item">
+                    <a class="header__mobile-link" href="#about">Про нас</a>
                 </li>
-                <li class="header__social-item">
-                    <a class="header__social-link" href="#">
-                        <svg class="header__svg" width="22" height="22">
-                            <use href="./images/icons.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
+                <li class="header__mobile-item">
+                    <a class="header__mobile-link" href="#contacts">Контакти</a>
                 </li>
             </ul>
         </div>
-    </div>
-    
 
+        <div class="header__menu">
+            <nav class="header__navigation">
+                <div>
+                    <ul class="header__navigation-list">
+                        <li class="header__navigation-item">
+                            <a href="#services">Наші послуги</a>
+                        </li>
+                        <li class="header__navigation-item">
+                            <a href="#about">Про нас</a>
+                        </li>
+                        <li class="header__navigation-item">
+                            <a href="#contacts">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        
+            <div class="header__social">
+                <ul class="header__social-items">
+                    <li class="header__social-item">
+                        <a class="header__social-link" href="https://www.facebook.com/profile.php?id=61557629715751" target="_blank" aria-label="Facebook link">
+                            <svg class="header__svg" width="22" height="22">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__social-item">
+                        <a class="header__social-link" href="#">
+                            <svg class="header__svg" width="22" height="22">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__social-item">
+                        <a class="header__social-link" href="#">
+                            <svg class="header__svg" width="22" height="22">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</div>
 </div>
