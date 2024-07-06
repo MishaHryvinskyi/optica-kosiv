@@ -1,0 +1,57 @@
+.visually-hidden { 
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages__list {
+    display: flex;
+    align-items:self-start;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.advantages__item {
+    width: 260px;
+}
+
+.advantages__item-wrapper {
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    background-color: var(--color-light-green);
+    box-shadow: -1px -1px 49px 3px rgba(77,194,116,0.75);
+    margin-bottom: 20px;
+
+    & > svg {
+        fill: var(--accent-color);
+    }
+}
+
+.advantages__title {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .advantages__list {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+       & li:not(:last-child) {
+        margin-bottom: 60px;
+       }
+    }
+}

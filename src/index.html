@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Оптика Косів</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
@@ -15,6 +15,7 @@
     
     <main>
       <include src="./partials/hero.html"></include>
+      <include src="./partials/advantages.html"></include>
       <include src="./partials/services.html"></include>
       <include src="./partials/about.html"></include>
     </main>
@@ -22,17 +23,16 @@
     <footer>
       <include src="./partials/footer.html"></include>
     </footer>
+    <button type="button" class="go-to-top">
+      <svg width="20" height="20">
+        <use href="./images/icons.svg#icon-arrow-up2"></use>
+      </svg>
+    </button>
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <button type="button" class="go-to-top">
-      <svg width="20" height="20">
-        <use href="./images/icons.svg#icon-arrow-up2"></use>
-      </svg>
-    </button>
-  <!-- <script defer src="./js/mobile-menu.js"></script> -->
   </body>
 </html>
