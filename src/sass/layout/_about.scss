@@ -5,11 +5,35 @@
 
 .about__paragraph-optica {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
 }
 
+.about__items-optica {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.about__img-optica {
+    object-fit: contain;
+    display: block;
+    border-radius: 10px;
+}
+
+.about__img-doctor {
+    display: block;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.about__paragraph-doctor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 
 @media screen and (min-width:320px) and (max-width:767px) {
     .about__paragraph {
@@ -19,15 +43,71 @@
     .about__paragraph-optica {
         display: block;
     }
+
+    .about__items-optica {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & li:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+
+    .about__img-optica, 
+    .about__img-doctor {
+        width: 280px;
+    }
+
+    .about__img-doctor {
+        margin: 0 auto;
+    }
+
+
+    .about__paragraph-doctor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__items-doctor {
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (min-width:768px) {
-    // .about__paragraph {
-    //     width: 720px;
-    //     padding: 10px 0;
-    // }
+    .about__items-optica {
+        display: flex;
+
+        &  li:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    .about__img-optica {
+        width: 300px;
+    }
+
+    .about__paragraph-doctor {
+        flex-direction: row;    
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__items-doctor {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .about__img-optica {
+        width: 220px;
+    }
 }
 
 @media screen and (min-width:1200px) {
-    
+    .about__img-optica {
+        width: 360px;
+    }
 }
