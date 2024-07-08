@@ -1,19 +1,18 @@
  body.light {
-    --color-bg: var(--color-white);
-    --color-text: var(--primary-color);
+  --color-bg: var(--color-white);
+  --color-text: var(--primary-color);
   }
 
   body.dark {
-    --color-bg: var(--primary-color);
-    --color-text: var(--color-white);
+  --color-bg: var(--primary-color);
+  --color-text: var(--color-white);
   }
 
-
 body {
-    background-color: var(--color-bg);
-    color: var(--color-text);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 1.4;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.4;
 }
