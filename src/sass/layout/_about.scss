@@ -3,7 +3,8 @@
     text-align: center;
 }
 
-.about__paragraph-optica {
+.about__paragraph-optica,
+.about__paragraph-founder {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,14 +13,20 @@
 }
 
 .about__items-optica {
+    overflow: hidden;
     display: flex;
-    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.about__item-optica {
+    overflow: hidden;
 }
 
 .about__img-optica {
-    object-fit: contain;
+    object-fit: cover;
     display: block;
-    border-radius: 10px;
 }
 
 .about__img-doctor {
