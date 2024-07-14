@@ -13,12 +13,39 @@
     margin: 10px;
     height: 260px;
     background-color: rgba(128, 128, 128, 0.9);
+
+    @media screen and (min-width:320px) and (max-width:375px) {
+        width: 280px;
+    }
+    
+    @media screen and (min-width:375px) and (max-width:480px) {
+        width: 345px;
+    }
+    
+    @media screen and (min-width:480px) and (max-width:767px) {
+        width: 450px;
+    }
+    @media screen and (min-width:320px) and (max-width:767px) {
+        height: auto;
+    }
 }
 
 .services__img {
     object-fit: contain;
     border-radius: 8px;
     display: block;
+
+    @media screen and (min-width:320px) and (max-width:375px) {
+        width: 280px;
+    }
+    
+    @media screen and (min-width:375px) and (max-width:480px) {
+        width: 345px;
+    }
+    
+    @media screen and (min-width:480px) and (max-width:767px) {
+        width: 450px;
+    }
 }
 
 .services__title {

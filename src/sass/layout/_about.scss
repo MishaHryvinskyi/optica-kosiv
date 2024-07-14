@@ -20,6 +20,14 @@
     margin-top: 40px;
 }
 
+.about__items-founder {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
 .about__item-optica {
     overflow: hidden;
 }
@@ -42,6 +50,25 @@
     margin-bottom: 40px;
 }
 
+.about__img-optica, 
+.about__img-doctor,
+.about__founder-img {
+    @media screen and (min-width:320px) and (max-width:375px) {
+        width: 280px;
+    }
+        
+    @media screen and (min-width:375px) and (max-width:480px) {
+        width: 345px;
+    }
+        
+    @media screen and (min-width:480px) and (max-width:767px) {
+        width: 450px;
+    }
+    @media screen and (min-width:320px) and (max-width:767px) {
+        height: auto;
+    }
+}
+
 @media screen and (min-width:320px) and (max-width:767px) {
     .about__paragraph {
         padding: 20px 0;
@@ -51,7 +78,8 @@
         display: block;
     }
 
-    .about__items-optica {
+    .about__items-optica,
+    .about__items-founder {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -59,11 +87,6 @@
         & li:not(:last-child) {
             margin-bottom: 20px;
         }
-    }
-
-    .about__img-optica, 
-    .about__img-doctor {
-        width: 280px;
     }
 
     .about__img-doctor {
@@ -92,10 +115,6 @@
         }
     }
 
-    .about__img-optica {
-        width: 300px;
-    }
-
     .about__paragraph-doctor {
         flex-direction: row;    
         align-items: center;
@@ -107,14 +126,25 @@
     }
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
-    .about__img-optica {
+.about__img-optica,
+.about__founder-img {
+    @media screen and (min-width:768px) and (max-width:1023px) {
         width: 220px;
     }
-}
 
-@media screen and (min-width:1200px) {
-    .about__img-optica {
-        width: 360px;
+    @media screen and (min-width:768px) and (max-width:1023px) {
+        width: 220px;
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1200px) {
+       width: 320px;
+    }
+
+    @media screen and (min-width:1024px) and (max-width:1200px) {
+        width: 300px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: auto;
     }
 }
