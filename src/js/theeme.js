@@ -5,11 +5,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
         document.body.classList.add(savedTheme);
-        if (savedTheme === 'dark') {
-            themeSwitch.checked = true;
-        } else {
-            themeSwitch.checked = false;
-        }
+        themeSwitch.checked = (savedTheme === 'dark');
     } else {
         document.body.classList.add('light');
     }
