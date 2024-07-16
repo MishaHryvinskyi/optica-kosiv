@@ -146,10 +146,31 @@
     }
 
     .footer__navigation-list li:not(:last-child) {
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 
     .footer__navigation-link {
         font-size: 20px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .footer__wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer__address-wrapper {
+        margin-top: 0;
+        margin-left: 100px;
+    }
+
+    .footer__navigation {
+        text-align: center;
+    }
+
+    .footer__navigation-list li:not(:last-child) {
+        margin-bottom: 20px;
     }
 }
