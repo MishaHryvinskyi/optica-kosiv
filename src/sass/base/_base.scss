@@ -28,10 +28,9 @@ body {
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
-  font-family: "Wix Madefor Display", sans-serif;
+  font-family: var(--primary-font), sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 300;
-  text-align: justify;
   letter-spacing: 1.4;
 }

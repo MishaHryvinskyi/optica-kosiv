@@ -1,6 +1,6 @@
 .hero__title {
     text-align: center;
-    font-family: "Cormorant Infant", serif;
+    font-family: var(--title-font), serif;
     font-weight: 900;
     color: var(--color-white);
 }
