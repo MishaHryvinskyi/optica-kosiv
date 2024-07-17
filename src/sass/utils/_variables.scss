@@ -1,10 +1,10 @@
 :root {
     // main pallet
     --accent-color: rgb(196, 46, 46);
+    --accent-shadow: -1px -1px 49px 3px rgba(196,46,46,0.75);
     --primary-color: #373d40;
-    --accent-color-dark: #719192;
-    --color-light-green: #d4fde1;
-    --color-green-pseudo: #bee8cc;
     --color-grey: #f3f5f6;
     --color-white:  #e0dedc;
+    // animation
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1)
 }

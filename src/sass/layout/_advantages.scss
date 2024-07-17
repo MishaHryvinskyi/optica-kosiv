@@ -32,7 +32,7 @@
     height: 120px;
     padding: 20px;
     background-color: var(--color-white);
-    box-shadow: -1px -1px 49px 3px rgba(196,46,46,0.75);
+    box-shadow: var(--accent-shadow);
     margin-bottom: 20px;
 
     & > svg {

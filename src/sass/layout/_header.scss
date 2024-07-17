@@ -32,11 +32,11 @@
 
     & a {
         padding: 14px;    
-        transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: 500ms var(--cubic);
     }
     
     & a:hover {
-        transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: 500ms var(--cubic);
         color: var(--accent-color);
     } 
 }
@@ -64,23 +64,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 500ms var(--cubic);
     
     &:hover {
-        box-shadow: -1px -1px 49px 3px rgba(196,46,46,0.75);
+        box-shadow: var(--accent-shadow);
         border: var(--accent-color) solid 2px;
         fill: var(--accent-color);
-        transition: 500ms cubic-bezier(0.4, 0, 0.2, 1); 
+        transition: 500ms var(--cubic); 
     }
 
     &:hover .header__svg {
-        transition: 500ms cubic-bezier(0.4, 0, 0.2, 1); 
+        transition: 500ms var(--cubic); 
         fill: var(--accent-color);
     }
 }
 
 .header__svg {
-    transition: 500ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: 500ms var(--cubic); 
     fill: currentColor;
 }
 
