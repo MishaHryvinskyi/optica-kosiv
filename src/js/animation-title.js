@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    animateElements('.animate-list-left', 'animate__fadeInLeft');
-    animateElements('.animate-list-right', 'animate__fadeInRight');
+    animateElements('.animate-list-left', 'animate__slideInUp');
+    animateElements('.animate-list-right', 'animate__zoomIn');
 });
