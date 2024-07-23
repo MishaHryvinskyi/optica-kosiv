@@ -12,11 +12,12 @@
 }
 
 .hero__wrapper {
-    padding: 10px;
+    padding-bottom: 40px;
     background: transparent;
     backdrop-filter: blur(15px);
-    border: 1px var(--color-white) solid;
-    border-radius: 20px;
+    border-radius: 30px;
+    border-top: solid 1px var(--color-white);
+    border-bottom: solid 1px var(--color-white);
 }
 
 @media screen and (min-width:320px) {
