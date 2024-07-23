@@ -6,8 +6,17 @@
     margin-bottom: 60px;
 }
 
+.footer__soc-wrapper {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .footer__soc-list {
     display: flex;
+    margin-bottom: 10px;
 
     & li:not(:last-child) {
         margin-right: 14px;
