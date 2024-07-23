@@ -7,22 +7,22 @@
     <title>Оптика Косів</title>
     <link rel="icon" type="image/png" href="./images/logo-2.png" />
     <link rel="stylesheet" href="./sass/index.scss" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.css" integrity="sha512-VGojZD57lKnICqN9Y24PTzIwiSo/2IY8FfNCdcbwFSf2zGr97wCh2VrsZBb5xGbCpIqfs23PcaMbNNhMiXnQPg==" crossorigin="anonymous" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    
     <header>
       <include src="./partials/header.html"></include>
     </header>
-    
     <main>
       <include src="./partials/hero.html"></include>
+      <include src="./partials/_news.html"></include>
       <include src="./partials/advantages.html"></include>
       <include src="./partials/services.html"></include>
       <include src="./partials/about.html"></include>
       <include src="./partials/ophthalmologist.html"></include>
     </main>
-
     <footer>
       <include src="./partials/footer.html"></include>
     </footer>
@@ -37,5 +37,55 @@
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.3/simple-lightbox.min.js" integrity="sha512-VVdK/qeELyBhP1DrgHcKepXwdtR5Fz18KZjY6y5G+0jFTZr5yFsSOytO5M5LSMPrOAFm24V6olB5m9DQWjIMqQ==" crossorigin="anonymous"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      centeredSlides: false,
+    initialSlide: 0,
+    loop: true,
+    loopedSlides: 3,
+    spaceBetween: 16,
+
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      375: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      835: {
+        slidesPerView: 2,
+        slidesPerGroup: 1,
+      },
+      1440: {
+        slidesPerView: 3.4,
+        slidesPerGroup: 1,
+      },
+    },
+
+    keyboard: {
+      enabled: true,
+      onlyInViewport: true,
+      pageUpDown: true,
+    },
+
+    autoplay: {
+      delay: 2000,
+    },
+
+    speed: 1000,
+
+    });
+
+    const lightbox = new SimpleLightbox('.lightbox', {
+      captionDelay: 500,
+      closeOnOutsideClick: true,
+  });
+
+  </script>
   </body>
 </html>
