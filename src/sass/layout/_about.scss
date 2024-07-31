@@ -69,8 +69,7 @@
     margin-bottom: 0;
 }
 
-.about__img-optica, 
-.ophthalmologist__img,
+.about__img-optica,
 .about__founder-img {
     object-fit: cover;
     display: block;
@@ -94,10 +93,6 @@
 
     @media screen and (min-width:768px) and (max-width:1023px) {
         width: 220px;
-    }
-
-    @media screen and (min-width:1024px) and (max-width:1200px) {
-       width: 320px;
     }
 
     @media screen and (min-width:1024px) and (max-width:1200px) {
