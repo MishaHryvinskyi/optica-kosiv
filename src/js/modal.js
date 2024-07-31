@@ -10,4 +10,4 @@ backdrop.addEventListener('click', closeModal);
 setTimeout(() => {
     console.log("modal");
     backdrop.classList.remove('is-hidden'); // Remove the dot here
-}, 6000);
+}, 2000);
