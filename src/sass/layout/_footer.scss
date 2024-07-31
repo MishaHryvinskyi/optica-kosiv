@@ -161,6 +161,21 @@
     }
 }
 
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .footer__logo-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__address-wrapper {
+        margin: 0;
+    }
+
+    .footer__navigation-wrapper {
+        margin-top: auto;
+    }
+}
+
 @media screen and (min-width:1024px) {
     .footer__wrap {
         display: flex;
