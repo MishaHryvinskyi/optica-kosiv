@@ -28,9 +28,6 @@ body {
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
-  font-family: var(--primary-font), sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
+  font: normal 300 16px var(--primary-font), sans-serif;
   letter-spacing: 1.4;
 }

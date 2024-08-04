@@ -1,20 +1,19 @@
 .go-to-top {
     position: fixed;
+    display: none;
     right: 20px;
     bottom: 20px;
     cursor: pointer;
     padding: 8px 10px;
     border-radius: 50%;
-    border: none;
-    background-color: transparent;
-    display: none;
     border: solid 4px var(--accent-color);
-    transition: 500ms var(--cubic);
+    background-color: transparent;
+    transition: var(--time) var(--cubic);
 }
 
 .go-to-top > svg {
     fill: var(--accent-color);
-    transition: fill 500ms var(--cubic);
+    transition: fill var(--time) var(--cubic);
 }
 
 .go-top--show {
@@ -23,7 +22,7 @@
 
 .go-to-top:hover {
     box-shadow: var(--accent-shadow);
-    transition: 500ms var(--cubic);
+    transition: var(--time) var(--cubic);
     border: solid 4px var(--accent-color);
 }
 

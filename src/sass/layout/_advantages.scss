@@ -25,6 +25,7 @@
 .advantages__item-wrapper {
     border-radius: 50%;
     margin: 0 auto;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +34,6 @@
     padding: 20px;
     background-color: var(--color-white);
     box-shadow: var(--accent-shadow);
-    margin-bottom: 20px;
 
     & > svg {
         fill: var(--accent-color);

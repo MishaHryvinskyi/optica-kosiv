@@ -5,7 +5,5 @@
 
     text-align: center;
     margin-bottom: 40px;
-    font-family: var(--title-font), serif;
-    font-size: 58px;
-    font-weight: 800;
+    font: 800 58px var(--title-font), serif;
 }

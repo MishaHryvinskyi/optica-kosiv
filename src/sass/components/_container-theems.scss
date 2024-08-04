@@ -1,27 +1,27 @@
 .toggle {
-    background-color: var(--color-white);
     width: 45px;
     height: 45px;
     border-radius: 50%;
     display: grid;
     place-items: center;
     cursor: pointer;
-    box-shadow: 0 0 50px 20px rgba(0, 0, 0, .1);
+    background-color: var(--color-white);
+    box-shadow:var(--shadow-toggle);
     line-height: 1;
-    transition: 500ms var(--cubic); 
+    transition: var(--time) var(--cubic); 
 
     &:hover {
       background-color: var(--color-white);
       box-shadow: var(--accent-shadow);
-      transition: 500ms var(--cubic); 
+      transition: var(--time) var(--cubic); 
     }
 
     & > svg {
-      transition: 500ms var(--cubic); 
+      transition: var(--time) var(--cubic); 
     }
 
     &:hover svg {
-      transition: 500ms var(--cubic); 
+      transition: var(--time) var(--cubic); 
       fill: var(--accent-color);
     }
   }
@@ -33,10 +33,10 @@
   .icon {
     grid-column: 1 / 1;
     grid-row: 1 / 1;
-    transition: transform 500ms;
+    transition: transform var(--time);
 
     &--moon {
-      transition-delay: 200ms;
+      transition-delay: var(--time);
     }
     
     &--sun {
@@ -49,7 +49,7 @@
   }
   
   #switch:checked ~ .icon--sun {
-    transition-delay: 200ms;
+    transition-delay: var(--time);
     transform: scale(1) rotate(360deg);
   }
 

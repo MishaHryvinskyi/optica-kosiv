@@ -7,7 +7,7 @@
     margin-left: auto;
     border: none;
     border-radius: 50%;
-    transition: 500ms var(--cubic);
+    transition: var(--time) var(--cubic);
     box-shadow: 0 0 50px 20px rgba(0, 0, 0, .1);
     background-color: var(--color-white);
 
@@ -15,18 +15,18 @@
         display: block;
         height: 40px;
         width: 40px;
-        transition: 500ms var(--cubic);
+        transition: var(--time) var(--cubic);
     }
 
     &:hover > svg {
-        transition: 500ms var(--cubic);
+        transition: var(--time) var(--cubic);
         fill: var(--accent-color);
     }
 
     &:hover {
         box-shadow: var(--accent-shadow);
         border-radius: 50%;
-        transition: 500ms var(--cubic);
+        transition: var(--time) var(--cubic);
     }
 }
 
@@ -47,7 +47,7 @@
     z-index: 999;
 
     transform: translateX(100%);
-    transition: transform 500ms ease-in-out;
+    transition: transform var(--time) ease-in-out;
 }
 
 .mobile-menu-wrapper {
@@ -93,20 +93,20 @@
     padding: 16px;
     border-radius: 10px;
     border: 2px solid var(--color-white);
-    transition: 500ms var(--cubic);
+    transition: var(--time) var(--cubic);
 
     &:hover {
         border: 2px solid var(--accent-color);
-        transition: 500ms var(--cubic);
+        transition: var(--time) var(--cubic);
     }
 
     &:hover .svg-mobile-menu {
         fill: var(--accent-color);
-        transition: 500ms var(--cubic);
+        transition: var(--time) var(--cubic);
     }
 }
 
 .svg-mobile-menu {
     fill: var(--color-white);
-    transition: 500ms var(--cubic);
+    transition: var(--time) var(--cubic);
 }

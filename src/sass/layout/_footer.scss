@@ -32,13 +32,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 500ms var(--cubic);
+    transition: var(--time) var(--cubic);
 
     &:hover {
         box-shadow: var(--accent-shadow);
         border: var(--accent-color) solid 2px;
         fill: var(--accent-color);
-        transition: 500ms var(--cubic); 
+        transition: var(--time) var(--cubic); 
     }
 
     &:hover .footer__svg {
@@ -50,11 +50,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 500ms var(--cubic);
+    transition: var(--time) var(--cubic);
 }
 
 .footer__svg {
-    transition: 500ms var(--cubic);
+    transition: var(--time) var(--cubic);
     fill: currentColor;
 }
 
@@ -65,25 +65,25 @@
 
 .footer__navigation-link {
     padding: 14px;
-    transition: 500ms var(--cubic);
+    transition: var(--time) var(--cubic);
 
     &:hover {
         color: var(--accent-color);
-        transition: 500ms var(--cubic);
+        transition: var(--time) var(--cubic);
     }
 }
 
 .footer__address-link {
-    transition: 500ms var(--cubic);
+    transition: var(--time) var(--cubic);
 
     &:hover {
         color: var(--accent-color);
-        transition: 500ms var(--cubic);
+        transition: var(--time) var(--cubic);
     }
 
     &:hover svg  {
         fill: var(--accent-color);
-        transition: 500ms var(--cubic);
+        transition: var(--time) var(--cubic);
     }
 }
 
