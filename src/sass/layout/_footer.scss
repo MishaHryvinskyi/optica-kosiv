@@ -23,45 +23,9 @@
     }
 }
 
-.footer__soc-item {
-    cursor: pointer;
-    width: 45px;
-    height: 45px;
-    border: solid currentColor 2px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: var(--time) var(--cubic);
-
-    &:hover {
-        box-shadow: var(--accent-shadow);
-        border: var(--accent-color) solid 2px;
-        fill: var(--accent-color);
-        transition: var(--time) var(--cubic); 
-    }
-
-    &:hover .footer__svg {
-        fill:var(--accent-color);
-    }
-}
-
-.footer__soc-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: var(--time) var(--cubic);
-}
-
-.footer__svg {
-    transition: var(--time) var(--cubic);
-    fill: currentColor;
-}
-
 .footer__address-wrapper {
     margin-top: 40px;
 }
-
 
 .footer__navigation-link {
     padding: 14px;
